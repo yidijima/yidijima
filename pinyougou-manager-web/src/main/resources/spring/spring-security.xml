@@ -11,7 +11,13 @@
 	<http pattern="/img/**" security="none"/>
 	<http pattern="/js/**" security="none"/>
 	<http pattern="/plugins/**" security="none"/>
+<<<<<<< HEAD
 	
+=======
+<!--	security="none"  设置此资源不被拦截.-->
+<!--	如果你没有设置登录页security="none"-->
+
+>>>>>>> master
 	<!-- use-expressions:设置是否启动SpEL表达式，默认值是true。 -->
 	<http use-expressions="false">
 		<!-- 
